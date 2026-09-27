@@ -8,9 +8,9 @@
 
 This repository develops a pedagogical and research series on the use of **multi-agent artificial intelligence in finance**. Its central question is not whether a large language model can produce a useful answer, but whether heterogeneous artificial specialists can be organized into systems that resemble research teams, professional advisory groups, scientific communities, and, ultimately, adaptive financial institutions.
 
-The repository contains five connected experiments. Each experiment uses a population of fifty agents, but the number fifty is not presented as an optimal swarm size. It is a design device: large enough to force meaningful questions about heterogeneity, coordination, disagreement, governance, evidence, and organizational architecture, while remaining sufficiently bounded to inspect and study.
+The repository contains seven connected experiments, each accompanied by a research paper and an executable notebook. Each experiment uses a population of fifty agents, but the number fifty is not presented as an optimal swarm size. It is a design device: large enough to force meaningful questions about heterogeneity, coordination, disagreement, governance, evidence, and organizational architecture, while remaining sufficiently bounded to inspect and study.
 
-Across the series, the financial problems become progressively more complex and the artificial organization becomes progressively more sophisticated. The project therefore studies two simultaneous ladders:
+The original five episodes trace a progression toward increasingly complex financial problems and more sophisticated artificial organizations. Two additional applications extend this foundation into systemic-risk theory construction and conversational residential real-estate decision support. The original progression therefore provides two complementary learning ladders:
 
 **Financial complexity**
 
@@ -19,6 +19,8 @@ Portfolio research → derivative research → corporate architecture → latent
 **Organizational sophistication**
 
 Specialists → swarm → multidisciplinary swarm → scientific society → adaptive institution
+
+The two extensions explore different directions rather than additional rungs on a single scale: **an interdisciplinary research society that turns an unusual analogy into falsifiable hypotheses**, and **a hybrid buyer’s committee that translates human preferences into an explainable opportunity set**.
 
 The central architectural proposition is that the most important intelligence may not reside in any individual agent. It may reside in the **institutional architecture that determines how agents perceive, disagree, collaborate, compete, learn, are constrained, and reorganize**.
 
@@ -129,13 +131,59 @@ The key concept introduced here is **organizational plasticity**: the possibilit
 **Notebook:**  
 [NB_50_AGENT_AUTONOMOUS_FINANCIAL_INSTITUTIONCC_github.ipynb](./notebooks/NB_50_AGENT_AUTONOMOUS_FINANCIAL_INSTITUTIONCC_github.ipynb)
 
+### Episode VI — Teleportation-Inspired Risk Management
+
+The sixth experiment uses a fifty-agent interdisciplinary research society to investigate a deliberately unusual question: can the **workflow of quantum teleportation** inspire a more useful way of thinking about financial contagion and the distribution of risk?
+
+The financial problem begins where a conventional hedge assessment may stop. An institution reduces its measured market exposure, but its intervention can change counterparties’ obligations, collateral requirements, liquidity demands and subsequent behavior. The proposed framework, **Teleportation-Inspired Risk Management (TIRM)**, asks how observation, pre-positioned capacity, intervention, imperfect reconstruction and risk redistribution lead to a new system state. Its subject is the difference between local risk improvement and broader financial consequences.
+
+Fifty research roles are organized into ten intellectual traditions with five variants per tradition. Each agent must translate the analogy into a structured research contract containing financial mechanisms, candidate principles, mathematical objects, testable propositions and explicit points at which the analogy breaks. The notebook validates those contracts, distinguishes disciplinary breadth from depth of support, and gives each intellectual family equal aggregate weight when evaluating convergence. Candidate axioms are derived from the validated evidence rather than from an unqualified majority vote.
+
+A 5,000-scenario toy experiment examines how implementation latency, basis error, liquidity capacity and counterparty reliability affect reconstruction quality. It illustrates conditions under which local market-risk reduction can coexist with deterioration in a broader risk measure. The notebook then formulates five falsifiable hypotheses, compares balanced subswarms with the full validated research population, and exports a theory charter, evidence tables, provenance and a research agenda. Failed or invalid responses are distinguished from validated contributions; fifty requested roles do not guarantee fifty usable research contracts.
+
+The pedagogical lesson is **how to move from a provocative analogy to a candidate theory that can be tested and rejected**. Financial systems are not quantum systems, risk is not physically teleported, and the simulation does not establish an empirical law of contagion. Internal swarm convergence measures conceptual stability, not scientific truth; external evidence must determine whether TIRM adds value beyond established financial theories.
+
+**Monograph:**
+
+[50 agents teleportation and risk management.pdf](./50%20agents%20teleportation%20and%20risk%20management.pdf)
+
+**Additional repository copy of the paper:**
+
+[teleportation Inspired risk management _ github .pdf](./teleportation%20Inspired%20risk%20management%20_%20github%20.pdf)
+
+**Notebook:**
+
+[NB_50_AGENT_QUANTUM_TELEPORTATION_RISK_THEORY_SWARM_GITHUB.ipynb](./notebooks/NB_50_AGENT_QUANTUM_TELEPORTATION_RISK_THEORY_SWARM_GITHUB.ipynb)
+
+### Episode VII — The Real-Estate Opportunity Swarm
+
+The seventh experiment turns a residential property search into a **conversational, multi-objective decision process**. A home combines a leveraged financial position with family needs, location, lifestyle, maintenance obligations and resale uncertainty. The buyer’s preferences are only partially articulated, so the system begins with a conversation rather than a fixed ranking formula.
+
+The notebook constructs a reproducible market of **1,200 synthetic properties across eight synthetic neighborhoods**. An intake layer translates the buyer’s description into a structured **Buyer Mandate**, including budget, financing assumptions, space requirements and priorities. A deterministic financial engine calculates mortgage payments and estimated monthly carrying costs, including taxes, insurance, maintenance and homeowners’ association charges.
+
+Fifty specialist roles are grouped into seven coalitions: **Finance, Investment, Family, Location, Lifestyle, Risk and Governance**. Their role-specific scores are calculated deterministically from the property evidence and buyer priorities. Coalition aggregation preserves both a consensus score and disagreement among specialists. Governance checks record constraint violations, while Pareto analysis identifies alternatives that are not dominated across the selected objectives. Candidate packets expose the strongest advocates, strongest critics and principal trade-offs for committee synthesis.
+
+This is deliberately a hybrid architecture: the language model interprets the conversation and explains the leading candidates; it does not replace mortgage arithmetic or the fifty specialist scoring functions. An interest-rate sensitivity experiment reruns the analysis under alternative financing assumptions. The ten code units culminate in a **Gradio application in Google Colab**, presenting the shortlist, committee narrative, coalition comparisons, structured mandate and execution provenance. Deterministic fallbacks retain a usable demonstration when live language-model calls are unavailable.
+
+The pedagogical lesson is **how distributed specialist judgment becomes an inspectable application for a decision that is simultaneously financial and human**. The current implementation uses feasibility flags, tolerances and ranking penalties: budget, bedrooms, bathrooms and floor area determine `hard_pass`, while monthly-cost and commute checks contribute to violation penalties. The displayed shortlist prioritizes passing properties but can include failing candidates when too few pass. Readers should therefore inspect violations rather than assume every displayed property satisfies every requested limit. Live listing integration and learning from saves, rejections or tours are proposed extensions, not implemented capabilities of this synthetic prototype.
+
+**Monograph:**
+
+[50 agents real estate app.pdf](./50%20agents%20real%20estate%20app.pdf)
+
+**Notebook:**
+
+[NB_50_AGENT_REAL_ESTATE_SWARM.ipynb](./notebooks/NB_50_AGENT_REAL_ESTATE_SWARM.ipynb)
+
 ## Series overview
 
-For a unified discussion of the five experiments, their progression, common architecture, and implications for financial institutions, see:
+For a unified discussion of the **original five experiments**, their progression, common architecture, and implications for financial institutions, see:
 
 [50 agents overview.pdf](./50%20agents%20overview.pdf)
 
 The overview develops the project’s central thesis: the strategic importance of multi-agent AI is not that many models can vote on an answer, but that heterogeneous artificial specialists can be organized into governed research and decision systems in which specialization, disagreement, evidence, memory, capital allocation, and organizational adaptation become explicit components of the architecture.
+
+The overview provides the conceptual foundation for Episodes I–V. The dedicated papers and notebooks for Episodes VI–VII extend the series into theory construction and an interactive decision-support application.
 
 ## Repository structure
 
@@ -148,15 +196,25 @@ ai_swarms_applications/
 ├── 50 agents complex corporate restructuring.pdf
 ├── 50 agents cross science discovery.pdf
 ├── 50 agents autonomous financial institution.pdf
+├── 50 agents teleportation and risk management.pdf
+├── teleportation Inspired risk management _ github .pdf
+├── 50 agents real estate app.pdf
+├── docs/
+│   └── index.html
 └── notebooks/
+    ├── readme.md
     ├── NB_50_AGENT_FINANCIAL_SWARM_ALGO_TRADING_github.ipynb
     ├── NB_50_AGENT_AMERICAN_OPTION_github.ipynb
     ├── NB_50_AGENT_GLOBAL_INSURANCE_TAX_ARCHITECTURE_github.ipynb
     ├── NB_50_AGENT_CROSS_SCIENCE_REGIME_DISCOVERY_github.ipynb
-    └── NB_50_AGENT_AUTONOMOUS_FINANCIAL_INSTITUTIONCC_github.ipynb
+    ├── NB_50_AGENT_AUTONOMOUS_FINANCIAL_INSTITUTIONCC_github.ipynb
+    ├── NB_50_AGENT_QUANTUM_TELEPORTATION_RISK_THEORY_SWARM_GITHUB.ipynb
+    └── NB_50_AGENT_REAL_ESTATE_SWARM.ipynb
 ```
 
-The GitHub notebook versions exclude embedded figure payloads in order to keep the files light enough for repository distribution. The analytical content, code, narrative structure, and notebook architecture are preserved.
+Notebook filenames are linked exactly as stored in the repository, including their differing capitalization and suffixes. Open a notebook to inspect its narrative and code, or load it in Google Colab to run the experiment.
+
+For the two new applications, the code configures the language-model identifier as `claude-sonnet-5` and reads `ANTHROPIC_API_KEY` from Colab Secrets or the environment. Live execution depends on account access and model availability. The real-estate notebook includes deterministic intake and committee fallbacks; the TIRM notebook records validated research contributions and failures separately. These are different execution modes and should not be interpreted as equivalent evidence of successful live-agent reasoning.
 
 ## Research and educational status
 
@@ -168,7 +226,7 @@ Nothing in this repository constitutes investment, legal, regulatory, tax, accou
 
 Artificial intelligence tools were used in parts of the **writing, coding, debugging, editing, documentation, and computational development** of this repository.
 
-The **research direction, conceptual structure, pedagogical design, architecture of the five experiments, selection of financial problems, integration across the series, governance logic, and final supervisory responsibility** are those of **Alejandro Reynoso**.
+The **research direction, conceptual structure, pedagogical design, architecture of the seven experiments, selection of financial problems, integration across the series, governance logic, and final supervisory responsibility** are those of **Alejandro Reynoso**.
 
 AI assistance should therefore be understood as a research and production tool used within a human-directed project. Alejandro Reynoso remains responsible for the content, interpretation, structure, and publication of the repository.
 
