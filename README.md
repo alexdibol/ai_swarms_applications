@@ -8,9 +8,9 @@
 
 This repository develops a pedagogical and research series on the use of **multi-agent artificial intelligence in finance**. Its central question is not whether a large language model can produce a useful answer, but whether heterogeneous artificial specialists can be organized into systems that resemble research teams, professional advisory groups, scientific communities, and, ultimately, adaptive financial institutions.
 
-The repository contains seven connected experiments, each accompanied by a research paper and an executable notebook. Each experiment uses a population of fifty agents, but the number fifty is not presented as an optimal swarm size. It is a design device: large enough to force meaningful questions about heterogeneity, coordination, disagreement, governance, evidence, and organizational architecture, while remaining sufficiently bounded to inspect and study.
+The repository contains eight connected experiments, each accompanied by a research paper and an executable notebook. Each experiment uses a population of fifty agents, but the number fifty is not presented as an optimal swarm size. It is a design device: large enough to force meaningful questions about heterogeneity, coordination, disagreement, governance, evidence, and organizational architecture, while remaining sufficiently bounded to inspect and study.
 
-The original five episodes trace a progression toward increasingly complex financial problems and more sophisticated artificial organizations. Two additional applications extend this foundation into systemic-risk theory construction and conversational residential real-estate decision support. The original progression therefore provides two complementary learning ladders:
+The original five episodes trace a progression toward increasingly complex financial problems and more sophisticated artificial organizations. Three additional applications extend this foundation into systemic-risk theory construction, conversational residential real-estate decision support, and governed legislative deliberation for Mexico’s securities market. The original progression therefore provides two complementary learning ladders:
 
 **Financial complexity**
 
@@ -20,7 +20,9 @@ Portfolio research → derivative research → corporate architecture → latent
 
 Specialists → swarm → multidisciplinary swarm → scientific society → adaptive institution
 
-The two extensions explore different directions rather than additional rungs on a single scale: **an interdisciplinary research society that turns an unusual analogy into falsifiable hypotheses**, and **a hybrid buyer’s committee that translates human preferences into an explainable opportunity set**.
+The three extensions explore complementary directions: **an interdisciplinary research society that turns an unusual analogy into falsifiable hypotheses**, **a hybrid buyer’s committee that translates human preferences into an explainable opportunity set**, and **a governed legislative laboratory that organizes competing institutional perspectives into a traceable reform proposal**.
+
+The eighth episode marks a particularly important turn in the pedagogical journey. Earlier applications study decisions within markets and financial institutions; **50 Agents Go to Congress** examines how a swarm can help reason about the rules under which those institutions operate. The learning objective expands from distributed judgment to public institutional design, making source authority, adversarial scrutiny and the boundary between analytical capability and legitimate decision-making central to the experiment.
 
 The central architectural proposition is that the most important intelligence may not reside in any individual agent. It may reside in the **institutional architecture that determines how agents perceive, disagree, collaborate, compete, learn, are constrained, and reorganize**.
 
@@ -175,6 +177,28 @@ The pedagogical lesson is **how distributed specialist judgment becomes an inspe
 
 [NB_50_AGENT_REAL_ESTATE_SWARM.ipynb](./notebooks/NB_50_AGENT_REAL_ESTATE_SWARM.ipynb)
 
+### Episode VIII — 50 Agents Go to Congress
+
+**From Statute to Reform: A Governed 50-Agent Swarm for Mexican Securities Law** extends the series into legislative and public-policy design. The laboratory studies Mexico’s **Ley del Mercado de Valores (LMV)** and develops an **anteproyecto de iniciativa de reforma** limited to exactly **twenty distinct articles of the existing statute**. The notebook’s ambition is a structured reform process: diagnosis, competing proposals, criticism, selection and legislative drafting, followed by human legal review.
+
+The swarm represents **eight institutional families**: practicing lawyers; legislative and public-policy specialists; regulators; issuers; exchanges and market infrastructure; broker-dealers; institutional investors; and comparative-law and academic specialists. Fifty synthetic roles receive different mandates, declared biases and success criteria. They bring market access, investor protection, proportionality, enforceability, supervisory capacity and implementation into the same deliberative process. These are simulated perspectives, not actual stakeholder consultation or democratic representation.
+
+The architecture begins with an authorized legal corpus, source provenance and article-level retrieval. Independent diagnosis precedes solution generation. Python organizes the findings into a problem map and temporary, cross-family **constellations**, which generate reform proposals. Reviewers from other institutional families then challenge those proposals and preserve their strongest objections. An **outer governance loop** audits participation, coverage and process quality, while transparent multicriteria scoring selects exactly twenty existing articles. A notebook authorization flag controls the transition to article-specific drafting and separate legislative-technique review. The package is then integrated with an *exposición de motivos* and exported alongside its diagnoses, reviews, selection records and audit trail.
+
+This experiment makes the **harness around the model** particularly visible. Generative reasoning supplies interpretations, policy alternatives and draft language; deterministic code controls proposal identity, article counts, ranking and structural checks. The human reviewer retains responsibility for legal interpretation, policy desirability and any subsequent institutional action. The pedagogical contribution is to show how an autonomous workflow can assist deliberation while keeping the authority to decide outside the model.
+
+The monograph reports a stored run with **176 diagnostic findings from 37 contributing agents, 33 proposals, 33 adversarial reviews and 20 completed article drafts**. Crucially, only one draft received a positive legislative-technique approval and nineteen remained flagged for revision. Those are recorded experimental results, not a new execution or independent legal validation. The reported deterministic readiness for human review therefore does not imply substantive legal approval or readiness for submission to Congress. Preserving that unresolved work is itself a lesson in accountable system design.
+
+The example brings the series’ central proposition into the public sphere: **a swarm can expand an institution’s capacity to examine alternatives, organize disagreement and reconstruct its reasoning; the legitimacy and responsibility of legislative choice remain human and institutional**.
+
+**Monograph:**
+
+[50 agents go to congress.pdf](./50%20agents%20go%20to%20congress.pdf)
+
+**Notebook:**
+
+[NB_50_AGENT_PRODUCE_A_NEW SECURITIES_LAW.ipynb](./notebooks/NB_50_AGENT_PRODUCE_A_NEW%20SECURITIES_LAW.ipynb)
+
 ## Series overview
 
 For a unified discussion of the **original five experiments**, their progression, common architecture, and implications for financial institutions, see:
@@ -183,7 +207,7 @@ For a unified discussion of the **original five experiments**, their progression
 
 The overview develops the project’s central thesis: the strategic importance of multi-agent AI is not that many models can vote on an answer, but that heterogeneous artificial specialists can be organized into governed research and decision systems in which specialization, disagreement, evidence, memory, capital allocation, and organizational adaptation become explicit components of the architecture.
 
-The overview provides the conceptual foundation for Episodes I–V. The dedicated papers and notebooks for Episodes VI–VII extend the series into theory construction and an interactive decision-support application.
+The overview provides the conceptual foundation for Episodes I–V. The dedicated papers and notebooks for Episodes VI–VIII extend the series into theory construction, interactive decision support and governed legislative reform.
 
 ## Repository structure
 
@@ -199,6 +223,7 @@ ai_swarms_applications/
 ├── 50 agents teleportation and risk management.pdf
 ├── teleportation Inspired risk management _ github .pdf
 ├── 50 agents real estate app.pdf
+├── 50 agents go to congress.pdf
 ├── docs/
 │   └── index.html
 └── notebooks/
@@ -209,12 +234,15 @@ ai_swarms_applications/
     ├── NB_50_AGENT_CROSS_SCIENCE_REGIME_DISCOVERY_github.ipynb
     ├── NB_50_AGENT_AUTONOMOUS_FINANCIAL_INSTITUTIONCC_github.ipynb
     ├── NB_50_AGENT_QUANTUM_TELEPORTATION_RISK_THEORY_SWARM_GITHUB.ipynb
-    └── NB_50_AGENT_REAL_ESTATE_SWARM.ipynb
+    ├── NB_50_AGENT_REAL_ESTATE_SWARM.ipynb
+    └── NB_50_AGENT_PRODUCE_A_NEW SECURITIES_LAW.ipynb
 ```
 
 Notebook filenames are linked exactly as stored in the repository, including their differing capitalization and suffixes. Open a notebook to inspect its narrative and code, or load it in Google Colab to run the experiment.
 
-For the two new applications, the code configures the language-model identifier as `claude-sonnet-5` and reads `ANTHROPIC_API_KEY` from Colab Secrets or the environment. Live execution depends on account access and model availability. The real-estate notebook includes deterministic intake and committee fallbacks; the TIRM notebook records validated research contributions and failures separately. These are different execution modes and should not be interpreted as equivalent evidence of successful live-agent reasoning.
+For the teleportation and real-estate applications, the code configures the language-model identifier as `claude-sonnet-5` and reads `ANTHROPIC_API_KEY` from Colab Secrets or the environment. Live execution depends on account access and model availability. The real-estate notebook includes deterministic intake and committee fallbacks; the TIRM notebook records validated research contributions and failures separately. These are different execution modes and should not be interpreted as equivalent evidence of successful live-agent reasoning.
+
+The Congress notebook configures `claude-haiku-4-5-20251001` and reads `ANTHROPIC_API_KEY` from Colab Secrets. It organizes the method into fifteen numbered instructional stages, with additional utility and authorization cells. Review the authorized LMV corpus and selected articles before deliberately executing the cell that sets `HUMAN_APPROVED_SELECTION = True`; the flag is a notebook control, not a record of formal institutional approval. The published notebook and monograph retain stored outputs for inspection.
 
 ## Research and educational status
 
@@ -226,7 +254,7 @@ Nothing in this repository constitutes investment, legal, regulatory, tax, accou
 
 Artificial intelligence tools were used in parts of the **writing, coding, debugging, editing, documentation, and computational development** of this repository.
 
-The **research direction, conceptual structure, pedagogical design, architecture of the seven experiments, selection of financial problems, integration across the series, governance logic, and final supervisory responsibility** are those of **Alejandro Reynoso**.
+The **research direction, conceptual structure, pedagogical design, architecture of the eight experiments, selection of financial problems, integration across the series, governance logic, and final supervisory responsibility** are those of **Alejandro Reynoso**.
 
 AI assistance should therefore be understood as a research and production tool used within a human-directed project. Alejandro Reynoso remains responsible for the content, interpretation, structure, and publication of the repository.
 
@@ -247,4 +275,4 @@ THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR I
 ---
 
 **Alejandro Reynoso**  
-September 2026
+Updated October 2026
